@@ -36,7 +36,7 @@ font-size:14px !important; font-weight: 500 !important; color: #3374151 !importa
 
 @st.cache_resource
 def load_model():
-  with open('hostpital_model.pk1', 'rb') as f:
+  with open('hostpital_model.pkl', 'rb') as f:
     return pickle.load(f)
 
 bundle=load_model()
