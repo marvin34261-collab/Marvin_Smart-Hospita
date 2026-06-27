@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 import os
 
-st.set_page_config(page_titles="Smart Hospital Patient Navigator", page_icon="🏥", layout="wide")
+st.set_page_config(page_title="Smart Hospital Patient Navigator", page_icon="🏥", layout="wide")
 
 sst.markdown("""
 <style>
@@ -98,3 +98,6 @@ Future Classroom Machine Learning
 </div>
 <div style="font-size:36px;font-weight:700;color:#ffffff;margin-bottom:12px;letter=spacing:-0.02em;">
   Smart Hostpital Patient Navigator
+  </div>
+</div>
+""",unsafe_allow_html=True)
