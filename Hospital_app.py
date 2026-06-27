@@ -33,3 +33,8 @@ font-size:14px !important; font-weight: 500 !important; color: #3374151 !importa
 }
 </style>
 """,unsafe_allow_html=True)
+
+@st.cache_resource
+def load__model():
+  with open('hostpital_model.pk1', 'rb') as f:
+    return pickle.load(f)
