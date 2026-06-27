@@ -53,8 +53,8 @@ cc_map=bundle['cc_map']
 
 DEPT_INFO = {
   'Respiratory Medicine' : {
-    'icon': '🫁', 'color':'#0284c7','bg':'#e0f2fe','border':'#fca5a5'
-    'desc' :'Specialises in conditions affecting the lungs and airway.',
+    'icon': '🫁', 'color':'#0284c7','bg':'#e0f2fe','border':'#fca5a5',
+    'desc':'Specialises in conditions affecting the lungs and airway.',
     'next':['Visit Level 2, Wing B', 'Estimated wait time: 15-25 min','please wear a mask']
 },
 'Cardiology':{
