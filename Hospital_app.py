@@ -86,4 +86,15 @@ DEPT_INFO = {
     'desc' :'Specialises in skin, hair, and nail conditions.',
 'next':['Visit Level 2, Wing D, 'Estimated wait time: 15-20 min','Bring phto of affected areas if possible']
 
-
+},
+}
+#--Hero Header ---
+st.markdown("""
+<div style = "background:linear-gradiet(135deg,#1e3a8a 0%, #1a5db 60&, #0ea5e9 100%);
+padding:3rem 2rem 2.5rem;margin:-1rem - 1rem 2rem;text-align:center;">
+<div style="font-size:14px;font-weight:500;color:rgba(255,255,255,0.7);
+text-transform:uppercase;letter-spacing:0.1em;margin-bottom:12px,">
+Future Classroom Machine Learning
+</div>
+<div style="font-size:36px;font-weight:700;color:#ffffff;margin-bottom:12px;letter=spacing:-0.02em;">
+  Smart Hostpital Patient Navigator
